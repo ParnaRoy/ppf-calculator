@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PPF Calculator</title>
+    <link rel="icon" href="./Images/.png">
+    <link rel="stylesheet" type="text/CSS" href="./CSS/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1> PPF Calculator </h1>
+        <p>Calculate maturity amount and interest earned on your PPF Account.</p>
+    </div>
+
+    <div class="current-interest">
+        <p>The current interest rate effective from 1 October 2018 is <strong>8.0%</strong> Per Annum (compounded annually).</p>
+    </div>
+
+    <div class="input-box">
+        <form id="myForm">
+            <p>Deposit Amount (Annual)</p>
+            <input id ="deposit_amount" type="text" placeholder="Enter Deposit Amount"/>
+            <input type="button" id="submit_button" value="Calculate"/>
+        </form>
+    </div>
+	
+	<div>
+		<p id="validation_error"></p>
+	</div>
+
+	<div class="maturity">
+		<p id="total_amount"></p>
+		<p id="maturity_amount"></p>
+	</div>
+	
+    <table id="ppf_table">
+        <tr>
+            <th style="width: 200px;">Year</th>
+            <th>Opening Balance</th>
+            <th>Amount Deposited</th>
+			<th>Interest Earned</th>
+			<th>Closing Balance</th>
+        </tr>
+    </table>
+
+	<script src=".\Scripts\script.js"></script>
+</body>
