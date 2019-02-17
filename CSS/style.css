@@ -1,0 +1,120 @@
+
+.header{
+	margin: 0;
+	padding-left: 40px;
+	padding-bottom: 5px;
+	color: #3C3D3E;
+	font-size: 20px; 
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+.header p{
+	color: #696A6A;
+	font-size: 18px; 
+}
+
+.current-interest{
+	margin: 0;
+	padding-left: 40px;
+	padding-bottom: 5px;
+	color: #696A6A;
+	font-size: 17px; 
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+.maturity p{
+	margin: 0;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	color: #32CD32;
+	font-size: 18px; 
+	font-weight: bold;
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+.input-box{
+	width: 500px;
+	height: 80px;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+
+.input-box p{
+	margin: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+	font-weight: bold;
+	color: #3C3D3E;
+	font-size: 16px; 
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+.input-box input{
+	margin-bottom: 20px;
+}
+
+.input-box input[type="text"]{
+	width: 250px;
+	border: 2px solid #C2C2C2;
+	padding: 8px 8px 8px 8px;
+	outline: none;
+	height: 20px;
+	font-size: 16px;
+	color: #3C3D3E;
+}
+
+.input-box input[type="button"]{
+	width: 150px;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #2980B9;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-left: 40px;
+}
+
+.input-box input[type="button"]:hover{
+	border: 2px solid #2980B9;
+	cursor: pointer;
+	background: #fff;
+	color: #2980B9;
+}
+
+#ppf_table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 92%;
+	margin-left: 40px;
+	margin-bottom: 100px;
+}
+
+#ppf_table td, #ppf_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#ppf_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#ppf_table tr:hover {background-color: #ddd;}
+
+#ppf_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2980B9;
+    color: white;
+}
+
+#validation_error{
+	margin: o;
+	padding-left: 40px;
+	padding-bottom: 5px;
+	color: #FF6158;
+	font-size: 18px;
+	font-family: "Arial", Helvetica, sans-serif;
+}
